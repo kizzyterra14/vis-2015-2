@@ -1,0 +1,369 @@
+  <!DOCTYPE html>
+  <html lang="pt">
+
+  <head>
+
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+
+      <title>Bare - Start Bootstrap Template</title>
+
+      <!-- Bootstrap Core CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <script type="text/javascript"  src="js/d3/d3.v3.js"></script>
+      <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.0/css/bootstrap-toggle.min.css" rel="stylesheet">
+
+
+      <!-- Custom CSS -->
+      <style>
+      html {
+        position: relative;
+        min-height: 100%;
+      }
+      body {
+          padding-top: 70px;
+          margin-bottom: 60px;
+          background-color: #edede7;
+          /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+      }
+      .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        /* Set the fixed height of the footer here */
+        height: 40px;
+        background-color: #f1f1eb;
+      }
+        body > .container {
+          padding: 0px 100px 0;
+        }
+        .container .text-muted {
+          margin: 10px 0;
+        }
+
+        .footer > .container {
+          padding-right: 15px;
+          padding-left: 15px;
+        }
+
+        code {
+          font-size: 80%;
+        }
+
+        label.checkbox-inline-month {
+        background-color:#8a8a82 ;
+        color: #f1f1eb !important;
+        text-shadow: 1px 1px 2px #000 !important;
+        cursor: pointer;
+        font-weight: 400;
+        margin-top: 20px !important;
+        margin-bottom: 10px !important;
+        margin-right: 0;
+        padding: 5px 7px 7px 6px;
+        border-radius: .375rem;
+       }
+
+        label.radio-inline,label.checkbox-inline,label.checkbox{
+        color: #fff !important;
+        text-shadow: 1px 1px 2px #000 !important;
+        cursor: pointer;
+        font-weight: 400;
+        margin-top: 6px !important;
+        margin-bottom: 5px !important;
+        margin-right: 0;
+        margin-left:0;
+        padding: 5px 40px 7px 50px;
+        border-radius: .375rem;
+    }
+
+        label.checkbox-inline-red {
+        background-color: #AA2207 ;
+       }
+
+        label.checkbox-inline-green {
+        background-color: #30634F;
+       }
+
+        label.checkbox-inline-blue {
+        background-color: #1B3B73;
+         }
+
+        label.checkbox-inline-yellow {
+        background-color: #CFB238;
+       }
+
+        label.checkbox-inline-purple {
+        background-color: #6F4587;
+       }
+       .btn-default{
+           background-color: #f3f3f1;
+           border-color: #9e9e94;
+           text-shadow: 1px 1px 2px #d7d7ce !important;
+       }
+        .navbar-fixed-top{
+            background-color: #f1f1eb;
+            padding: 10px 40px 5px 40px;
+
+        }
+        .nav-text-color{
+          color:black;
+        }
+
+        .navbar-brand
+        {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            text-align: center;
+            margin: auto;
+            font-size:      2.1em;
+            text-shadow: 1px 1px 2px #d7d7ce !important;
+
+        }
+        .control-label{
+            font-weight: 500;
+            margin-left: 0px;
+              margin-left: 0px;
+        }
+        .form-control{
+          margin-left: 0px;
+            margin-right: 10px;
+        }
+        .glyphicon-remove{
+          color: #ff6666
+;
+        }
+        .vis{
+          margin-top: 10px !important;
+        }
+
+        .well {
+            min-height: 20px;
+            width: inherit;
+            padding: 19px;
+            margin-bottom: 20px;
+            background-color: #F5F5F5;
+            border: 1px solid #E3E3E3;
+            border-radius: 4px;
+            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05) inset;
+          }
+}
+
+      </style>
+
+      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+  </head>
+
+  <body>
+
+      <!-- Navigation -->
+      <nav class="navbar navbar-fixed-top min-width" role="navigation">
+          <div class="container">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a href="#" class="nav-text-color navbar-brand">Descobrindo o Media Cloud Brasil </a>
+
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav navbar-left">
+                      <li>
+                          <a  class="nav-text-color" href="#">Sobre</a>
+                      </li>
+
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                  <li>
+                      <a  class="nav-text-color" href="#">Documentação</a>
+                  </li>
+
+                </ul>
+
+              </div>
+              <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container -->
+      </nav>
+
+
+
+
+          <!-- Page Content -->
+      <div class="container-fluid">
+              <div class="row-fluid">
+                  <div class="col-md-12 text-center">
+                    <p class="lead"> Uma ferramenta para análise exploratória</p>
+                  </div>
+              </div>
+              <!-- /.row -->
+      </div>
+
+      <div class="container">
+          <div class="row">
+
+            <div class="col-md-12 text-center">
+              <form class="form" role="form">
+                <div class="form-group">
+                <label class=" checkbox-inline checkbox-inline-red">
+                          <input type="checkbox"> O Globo
+                </label>
+                      <label class="checkbox-inline checkbox-inline-green">
+                          <input type="checkbox"> Folha S. Paulo
+                      </label>
+                      <label class=" checkbox-inline checkbox-inline-blue">
+                          <input type="checkbox"> Estadao
+                      </label>
+                      <label class="checkbox-inline checkbox-inline-purple">
+                          <input type="checkbox"> Fonte 4
+                      </label>
+                      <label class="checkbox-inline checkbox-inline-yellow">
+                          <input type="checkbox"> Fonte 5
+                      </label>
+                    </div>
+                  </form>
+                  </div>
+            </div>
+          </div>
+
+      <div class="container">
+        <div class="row">
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <label class="col-md-3
+                  control-label" for="name">Inserir palavra-chave:</label>
+                 <div class="col-md-7">
+
+                <input type="text" class="form-control" placeholder="Digite aqui">
+                </div>
+                  <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-ok"></span></button>
+
+                </div>
+             </form>
+          </div>
+        </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center" id="label-region">
+            <button type="button" class="btn btn-default">
+                <span class="glyphicon glyphicon-remove"></span>
+                Dilma
+              </button>
+              <button type="button" class="btn btn-default">
+                  <span class="glyphicon glyphicon-remove"></span>
+                  Lula
+                </button>
+                <button type="button" class="btn btn-default">
+                    <span class="glyphicon glyphicon-remove"></span>
+                    Marina Silva
+                  </button>
+                  <button type="button" class="btn btn-default">
+                      <span class="glyphicon glyphicon-remove"></span>
+                      Eduardo Campos
+                    </button>
+                    <button type="button" class="btn btn-default">
+                        <span class="glyphicon glyphicon-remove"></span>
+                        Levy Fidelix
+                      </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+          <div class="row-fluid">
+
+            <div class="col-md-12 text-center">
+            <div class="vis" id="d3vis"></div>
+              </div>
+
+            </div>
+          </div>
+
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+              <form class="form" role="form">
+                <div class="form-group">
+              <label class="checkbox-inline-month">
+                  <input type="checkbox"> Janeiro
+              </label>
+              <label class="checkbox-inline-month">
+                  <input type="checkbox"> Fevereiro
+              </label>
+              <label class="checkbox-inline-month">
+                <input type="checkbox"> Março
+              </label>
+              <label class="checkbox-inline-month">
+                  <input type="checkbox"> Abril
+              </label>
+              <label class="checkbox-inline-month">
+                  <input type="checkbox"> Maio
+              </label>
+              <label class="checkbox-inline-month">
+                  <input type="checkbox"> Junho
+              </label>
+              <label class="checkbox-inline-month">
+                  <input type="checkbox"> Julho
+              </label>
+              <label class="checkbox-inline-month">
+                  <input type="checkbox"> Agosto
+              </label>
+              <label class="checkbox-inline-month">
+                  <input type="checkbox"> Setembro
+              </label>
+              <label class="checkbox-inline-month">
+                  <input type="checkbox"> Outubro
+              </label>
+              <label class="checkbox-inline-month">
+                  <input type="checkbox"> Novembro
+              </label>
+              <label class="checkbox-inline-month">
+                  <input type="checkbox"> Dezembro
+              </label>
+              </div>
+            </form>
+            </div>
+          </div>
+            <!-- /.row -->
+          </div>
+
+        <footer class="footer">
+          <div class="container">
+            <p class="text-muted text-center">FGV-RJ/Escola de Matemática Aplicada - Visualização da Informação - Feito por Kizzy Fernada Terra Ferreira dos Reis - contato: kizzyterra@gmail.com</p>
+          </div>
+        </footer>
+
+
+
+      <!-- jQuery Version 1.11.1 -->
+      <script src="js/jquery.js"></script>
+
+      <!-- Bootstrap Core JavaScript -->
+      <script src="js/bootstrap.min.js"></script>
+      <script src="//d3js.org/d3.v3.min.js"></script>
+
+      <script src="js/mytreemap.js"></script>
+       <script src="js/myd3treemap.js"></script>
+      <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.0/js/bootstrap-toggle.min.js"></script>
+
+
+  </body>
+
+
+  </html>
