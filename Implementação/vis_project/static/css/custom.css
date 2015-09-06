@@ -99,13 +99,20 @@ body {
     font-weight: 300;
   }
 
+.logo{
+  height: 130%;
+  margin-top: 0px;
+  margin-right: 380px;
+  margin-left: 30px;
+  margin-bottom: 0px;
+}
   .navbar-brand
   {
+
       position: absolute;
       width: 100%;
       left: 0;
-      text-align: center;
-      margin: auto;
+
       font-size:      2.1em;
       text-shadow: 1px 1px 2px #d7d7ce !important;
 
