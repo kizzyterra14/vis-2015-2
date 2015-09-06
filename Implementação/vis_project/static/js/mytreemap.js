@@ -7,12 +7,9 @@ var sample_data = [
   {"value": 1, "name": "zeta", "weight": 35}
 ]
 var visualization = d3plus.viz()
-  .container("#viz")
+  .container("#vis")
   .data(sample_data)
   .type("tree_map")
   .id("name")
   .size("value")
   .draw()
-  <script
-  src="http://www.d3plus.org/js/d3.js"></script>
-  <script src="http://www.d3plus.org/js/d3plus.js"></script>

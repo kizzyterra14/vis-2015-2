@@ -1,0 +1,272 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+    padding-top: 70px;
+    margin-bottom: 60px;
+    background-color: #edede7;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: #f1f1eb;
+}
+  body > .container {
+    padding: 0px 10px 0;
+  }
+  .container .text-muted {
+    margin: 10px 0;
+  }
+
+  .footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  code {
+    font-size: 80%;
+  }
+
+  label.checkbox-inline-month {
+  background-color:#8a8a82 ;
+  color: #f1f1eb !important;
+  text-shadow: 1px 1px 2px #000 !important;
+  cursor: pointer;
+  font-weight: 400;
+  margin-top: 20px !important;
+  margin-bottom: 10px !important;
+  margin-right: 0;
+  padding: 5px 7px 7px 6px;
+  border-radius: .375rem;
+ }
+
+  label.radio-inline,label.checkbox-inline,label.checkbox{
+  color: #fff !important;
+  text-shadow: 1px 1px 2px #000 !important;
+  cursor: pointer;
+  font-weight: 400;
+  margin-top: 6px !important;
+  margin-bottom: 5px !important;
+  margin-right: 0;
+  margin-left:0;
+  padding: 5px 0px 7px 30px;
+  border-radius: .375rem;
+}
+
+  label.checkbox-inline-red {
+  margin-top: -5px !important;
+  margin-left: 10px;
+  background-color: #AA2207 ;
+ }
+
+  label.checkbox-inline-green {
+  background-color: #30634F;
+ }
+
+  label.checkbox-inline-blue {
+  background-color: #1B3B73;
+   }
+
+  label.checkbox-inline-yellow {
+  background-color: #CFB238;
+ }
+
+  label.checkbox-inline-purple {
+  background-color: #6F4587;
+ }
+ .btn-default{
+     background-color: #f3f3f1;
+     border-color: #9e9e94;
+     text-shadow: 1px 1px 2px #d7d7ce !important;
+     margin-top: 7px;
+     cursor: pointer;
+ }
+  .navbar-fixed-top{
+      background-color: #f1f1eb;
+      padding: 10px 40px 5px 40px;
+
+  }
+  .nav-text-color{
+    color:black;
+  }
+  .navbar-left, .navbar-right{
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  .navbar-brand
+  {
+      position: absolute;
+      width: 100%;
+      left: 0;
+      text-align: center;
+      margin: auto;
+      font-size:      2.1em;
+      text-shadow: 1px 1px 2px #d7d7ce !important;
+
+  }
+  .lead{
+    margin-top: 4px;
+  }
+  .control-label{
+     font-size: 16px;
+     font-weight: 300;
+      margin-left: 12px;
+
+      margin-top: 7px;
+      padding-right: 0;
+  }
+  .form-control{
+    margin-left: 0px;
+    margin-top: 7px;
+    margin-right: 10px;
+  }
+  .glyphicon-remove{
+    color: #ff6666
+;
+  }
+  .vis{
+    margin-top: 10px !important;
+  }
+
+  .well {
+      min-height: 20px;
+      width: inherit;
+      padding: 19px;
+      margin-bottom: 20px;
+      background-color: #F5F5F5;
+      border: 1px solid #E3E3E3;
+      border-radius: 4px;
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05) inset;
+    }
+
+    div.tooltip {
+      position: absolute;
+      width: 200px;
+      height: auto;
+      padding: 10px;
+      background-color: white;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+      -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+      box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+      pointer-events: none;
+      margin: 0;
+      font-family: helvetica;
+      font-size: 16px;
+      line-height: 20px;
+      *z-index: 1000;*
+    }
+
+
+    .tooltip p {
+      margin: 0;
+      font-family: sans-serif;
+      font-size: 16px;
+      line-height: 20px;
+      *z-index: 1000;*
+    }
+
+    ul.elements{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    ul.elements li{
+      margin: 6px 0;
+    }
+
+    ul.elements li > i{
+      color:#C03035;
+      display: inline-block;
+      margin-right: 10px;
+    }
+    /*****************************
+    Portfolio with right sidebar
+    *****************************/
+
+    .sidebar h4 {
+
+      margin-top: 15px;
+      border-bottom: 1px solid #000;
+      margin-bottom: 7px;
+      padding-bottom: 8px;
+      text-align: center;
+      font-weight: 400;
+    }
+
+    .sidebar-item{
+      margin-bottom: 48px;
+    }
+
+    .sidebar-item-period{
+      margin-top: -65px;
+      margin-bottom: 48px;
+      border-radius: .4rem;
+      border-bottom: 2px solid #000;
+      border-top: 2px solid #000;
+    }
+
+    .list-label{
+      border-bottom: 0px ;
+      font-size: 13px;
+      font-weight:500;
+      padding-left: 0;
+      margin-bottom: 4px;
+      margin-top: 5px;
+    }
+    .categories .navbar-stacked li {
+      border-bottom: 0px solid #171717;
+      cursor: pointer;
+    }
+
+
+
+    .categories .navbar-stacked li label {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000;
+      padding: 4px 0;
+      padding-left: 0;
+      margin-left: 6px;
+      cursor: pointer;
+      border-bottom: 1px solid #8d8d8d;
+      text-shadow: 1px 1px 2px #fff !important;
+
+    }
+
+
+
+    .tag-cloud .nav-pills{
+      margin-top: 16px;
+    }
+
+    .tag-cloud .nav-pills li{
+      margin: 0;
+      margin-top: 6px;
+      margin-right: 4px;
+    }
+
+    .tag-cloud .nav-pills li a{
+      font-size: 14px;
+      font-weight: 300;
+      padding: 5px 15px;
+      background: #bbbbbb;
+      color: #fff;
+      border-radius: 3px;
+    }
+
+    .tag-cloud .nav-pills li a:hover{
+      background: #0099AE;
+    }
+
+
+}
