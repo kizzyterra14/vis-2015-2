@@ -1,16 +1,16 @@
-<div class="container">
-  <div class="row">
-      <form class="form-horizontal" role="form">
-        <div class="form-group">
-          <label class="col-md-3
-            control-label" for="keyword">Inserir palavra-chave:</label>
-           <div class="col-md-7">
+<ul class="nav nav-pills">
+  <form class="form" role="form" method="POST">{% csrf_token %}
+    <div class="form-group">
+  <li>
+  {% for keyword in keywords %}
+  <button type="submit" class="btn btn-default" name="remove_keyword" value="{{keyword}}" >
+    <span class="glyphicon glyphicon-remove"></span>
+          {{keyword}}
+  </button>
+  {% endfor %}
+ </li>
+ </div>
+ </form>
 
-          <input type="text" class="form-control" placeholder="Digite aqui">
-          </div>
-            <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-ok"></span></button>
 
-          </div>
-       </form>
-    </div>
-  </div>
+</ul>

@@ -1,0 +1,31 @@
+<div class="container-fluid">
+    <div class="row-fluid">
+
+          <div class="col-md-2 sidebar blog-sidebar">
+              <div class="sidebar-item-period categories">
+
+                  <h4>Período</h4>
+                  {% include "vis_treemap/period.html" %}
+
+                </div>
+          </div>
+
+          <div class="col-md-8 text-center">
+              <div class="vis" id="d3vis"></div>
+          </div>
+
+          <div class="col-md-2 sidebar blog-sidebar">
+            <div class=" sidebar-item tag-cloud">
+
+                <h4>Fontes</h4>
+                {% include "vis_treemap/sources.html" %}
+
+            </div>
+
+            <div class=" sidebar-item tag-cloud">
+                <h4>Palavras-chave</h4>
+                {% include "vis_treemap/keywords.html" %}
+            </div>
+        </div>
+    </div>
+</div>

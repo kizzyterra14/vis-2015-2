@@ -66,7 +66,7 @@ d3.json("static/lib/mydata.json",function(data){
               tooltip.transition()
                 .duration(10)
                 .style("opacity", .9);
-              tooltip.html("<strong>Buffy</strong>: 1200 notícias" + "<br/>" )
+              tooltip.html("<strong>Buffy</strong> <br/>"+ "1200 notícias" )
                 .style("left", (d3.event.pageX-250) + "px")
                 .style("top", (d3.event.pageY-210) + "px");
 
