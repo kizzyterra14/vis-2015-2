@@ -18,6 +18,7 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^inicio$', 'vis_treemap.views.home',name='home'),
+    url(r'^iniciop$', 'vis_treemap.views.homep',name='homep'),
     url(r'^sobre$', 'vis_treemap.views.about',name='about'),
     url(r'^docs$', 'vis_treemap.views.docs',name='docs'),
 ]

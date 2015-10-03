@@ -1,0 +1,31 @@
+{
+  "name":"sources",
+  "value":100,
+  "children":[
+    {
+      "name":"oglobo",
+      "value":75,
+      "children":[
+        {"name":"Dilma", "value":25},
+        {"name":"Marina Silva", "value":25},
+        {"name":"Eduardo Campos", "value":25}
+    ]
+  },
+  {
+    "name":"estadao",
+    "value":75,
+    "children":[
+      {"name":"Dilma", "value":25},
+      {"name":"Levy Fidelix", "value":25}
+  ]
+  },
+  {
+    "name":"folha",
+    "value":75,
+    "children":[
+      {"name":"Dilma", "value":25},
+      {"name":"Aecio", "value":25}
+  ]
+  }
+ ]
+}

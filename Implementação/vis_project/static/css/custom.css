@@ -102,7 +102,7 @@ body {
 .logo{
   height: 130%;
   margin-top: 0px;
-  margin-right: 380px;
+  margin-right: 355px;
   margin-left: 30px;
   margin-bottom: 0px;
 }
@@ -215,7 +215,7 @@ body {
     }
 
     .sidebar-item-period{
-      margin-top: -65px;
+      margin-top: -82px;
       margin-bottom: 48px;
       border-radius: .4rem;
       border-bottom: 2px solid #000;
@@ -274,6 +274,8 @@ body {
     .tag-cloud .nav-pills li a:hover{
       background: #0099AE;
     }
-
+    .u {
+    text-decoration: underline;
+}
 
 }

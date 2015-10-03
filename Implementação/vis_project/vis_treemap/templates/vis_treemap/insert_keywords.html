@@ -2,13 +2,13 @@
   <div class="row">
       <form class="form-horizontal" role="form" method="POST">{% csrf_token %}
         <div class="form-group">
-          <label class="col-md-3
+          <label class="col-md-3 col-lg-3
             control-label" for="keyword">Inserir palavra-chave:</label>
-           <div class="col-md-7">
+           <div class="col-md-7 col-lg-7">
 
           <input type="text" class="form-control" name="keyword" id="keyword" placeholder="Digite aqui">
           </div>
-            <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-ok"></span></button>
+            <button class="btn btn-default" id="btnkeyword" type="submit" onclick="switchData('static/lib/mydata.json')"><span class="glyphicon glyphicon-ok"></span></button>
 
           </div>
        </form>
